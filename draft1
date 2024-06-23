@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>to know how to use git</title>
+    </head>
+    <body>
+        <form action="/sai/list.html/">
+            <label for="fname">firstname</label><br>
+            <input type="text" id="fname" name="fname" value="fname"><br>
+            <label for="lname">lastname</label><br>
+            <input type="text" id="lname" name="lname" value="lname"><br>
+            <label for="age">age</label><br>
+            <input type="number" id="age" value="age" value="24"><br>
+            <label for="gender">gender</label><br>
+            <label for="gender">male</label>
+            <input type="radio" id="gender" name="gender" value="male"><br>
+            <label for="gender">female</label>
+            <input type="radio" id="gender" name="gender" value="female"><br>
+            <label for="gender">trans</label>
+            <input type="radio" id="gender" name="gender" value="trans"><br>
+            <p>interested in</p>
+            <label for="1st">acting</label><br>
+            <input type="checkbox" id="1st" name="interested in" value="acting"><br>
+            <label for="2nd">singing</label><br>
+            <input type="checkbox" id="2nd" name="interested in" value="singing"><br>
+            <label for="3rd">filmmaking</label><br>
+            <input type="checkbox" id="3rd" name="interested in" value="filmmaking"><br>
+            <label for="4th">producing films</label><br>
+            <input type="checkbox" id="4th" name="interested in" value="producing films"><br>
+            <input type="submit" value="submit"><br>
+            <input type="button" value="press it hard"><br>
+            <label for="describe yourself">describe yourself</label><br>
+            <input type="text-area" id="describe yourself" name="describe yourself" value="briefly"><br>
+            <label for="as a hobbie">which one do you pick</label><br>
+           <select name="swimming" id="swimming"><br>
+            <option value="one">reverse swimmng</option>
+            <option value="two">deep down swimming</option>
+            <option value="three">opposite swimming </option>
+            <optgroup label= "dry swimming">
+            <option value="does anyone know dry swimming">anyone knowdry swimming</option>
+            <option value="i dont know dry swimming">i dont know dry swimming</option><br>
+            <hr>
+            <label for="browser">select the browser from the list</label>
+            <input list="browser" id="browser" name="browser">
+            <datalist id="browser">
+                <option id="chrome">chrome</option>
+                <option id="mozilla">mozilla</option>
+                <option id="firefox">firefox</option>
+            </datalist>
+            </optgroup>
+           </select>
+        </form>
+    </body>
+</html>
