@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>data example</title>
+        <link rel="stylesheet" href="datalist.css">
+        <style>
+            p{
+                color: #ff0044;
+                text-align: jus;
+
+            }
+            #one{
+                color: slateblue;
+                letter-spacing: 2px;
+                word-wrap: 33px;
+                text-align: center;
+            }
+            #two{
+                color:brown;
+                text-overflow: clip;
+                text-decoration: dotted;
+                text-align:center;
+            }
+            .centre1{
+                color:peru;
+                word-spacing: normal;
+                text-align:center;
+            }
+            .centre2{
+                color: purple;
+                letter-spacing: 2px;
+                text-overflow: inherit;
+           }
+        </style>
+    </head>
+    <body>
+        <form action="revision.html" method="get" autocomplete="on" target="_blank">
+     <p>datalist attribute to codify(predefined options for input control)</p>
+     <p>autocomplete attribute to codify(after submit next time we get the values by turning it on)</p>
+     <p>method attribute to codify (get nd post)</p>
+     <p>target attribute to codify(where to display the response :- blank, self, _parent, top, framename)</p>
+     <h6 style="font-size: medium; color: #dd12cc;">novalidate(input is not to be validated)</h6>
+     <label style="color: #dd0099;letter-spacing: 10px; word-spacing: 3px;" for="select the movie to choose">choosing the movie </label>
+     <input list="movies" id="movie" class="movie">
+     <datalist aria-autocomplete="both" id="movies">
+        <option value="gangs of godhavari">
+        <option value="baje vaayu vegam">
+        <option value="gam gam ganesha">
+        <option value="furiosa mad max">
+     </datalist><br>
+     <label for="email">email</label>
+     <input id="one" type="email" id="email" name="email"><br>
+     <label for="password">password</label>
+     <input id="two" type="password" id="password" name="password"><br>
+     <label for="description">brief description</label>
+     <input class="centre1" type="textarea" id="description" name="brief"><br>
+    <input class="centre2" type="submit" value="submit">
+     
+    </form>
+    </body>
+</html>
